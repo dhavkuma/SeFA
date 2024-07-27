@@ -10,7 +10,6 @@ import typing as t
 from .. import date_utils, logger
 
 
-@dataclass
 class RbiRateObj(t.TypedDict):
     time_in_millis: int
     rate: float
